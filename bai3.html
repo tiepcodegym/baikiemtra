@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai3</title>
+</head>
+<body>
+//Bài 3:
+//Cho trước 1 mảng bao gồm n phần tử
+//Viết hàm tính tổng các số nguyên tố trong mảng.
+<script>
+  let arr=[11,19,3,5,7,8,6,4]
+  let dem=0
+  for(let i=0;i<arr.length;i++){
+   if (checkSNT(arr[i]===true){
+     dem=dem+1
+   }
+  }alert(dem);
+
+function checkSNT(number) {
+    let check=true;
+    for(let i=2;i<Math.sqrt(number);i++){
+      if(number%i==0){
+        return false
+        break
+      }
+    }
+}
+
+</script>
+
+
+</body>
+</html>
